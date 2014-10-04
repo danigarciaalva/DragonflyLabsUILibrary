@@ -17,9 +17,10 @@ Use
 ```
 * **Add Blur ImageView**
 ```xml
+<!--Customizable app:blurLevel  1-100 -->
 <mx.dragonflylabs.ui.BlurredImageView 
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    app:blurLevel="50" <!--Customizable 1 - 100 -->
+    app:blurLevel="50" 
     android:src="@drawable/ic_launcher"/>
 ```
